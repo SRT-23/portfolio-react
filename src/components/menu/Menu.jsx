@@ -1,7 +1,7 @@
 import React from 'react'
 import './menu.scss';
 
-export default function Menu({menuOpen,setMenuOpen}) {
+export default function Menu({ menuOpen, setMenuOpen }) {
     return (
         <div className={'menu ' + (menuOpen && 'active')}>
             <ul>
@@ -12,10 +12,10 @@ export default function Menu({menuOpen,setMenuOpen}) {
                     <a href='#portfolio'>Portfolio</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href='#work'>Work</a>
+                    <a href='#work'>Technical Skills</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href='#testimonials'>Testimonials</a>
+                    <a href='#testimonials'>Work Experience</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
                     <a href='#contact'>Contact</a>

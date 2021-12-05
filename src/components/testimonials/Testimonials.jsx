@@ -5,44 +5,40 @@ export default function Testimonials() {
     const data = [
         {
             id: 1,
-            name: "Tom Durden",
-            title: "Senior Developer",
-            img:
-                "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-            icon: "assets/twitter.png",
+            name: "Production Support Analyst",
+            title: "JP Morgan Chase & Co",
+            img: "assets/download.jpg",
+            icon: "assets/globe.png",
             desc:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+                "Worked on deployment as well as pre-deployment software in order to create responsive applications and solve any issues that arose.",
         },
         {
             id: 2,
-            name: "Alex Kalinski",
-            title: "Co-Founder of DELKA",
-            img:
-                "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-            icon: "assets/youtube.png",
+            name: "FrontEnd Developer Intern",
+            title: "CitiBank",
+            img: "assets/download-1.jpg",
+            icon: "assets/mobile.png",
             desc:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+                "Used React.js, React Native, JavaScript/Jquery, HTML, and CSS/SCSS to create responsive web pages.",
             featured: true,
         },
         {
             id: 3,
-            name: "Martin Harold",
-            title: "CEO of ALBI",
-            img:
-                "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-            icon: "assets/linkedin.png",
+            name: "Software Dev/Test Intern",
+            title: "University of Utah",
+            img: "assets/download-2.jpg",
+            icon: "assets/globe.png",
             desc:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+                "Standardized the quality assurance procedures for software and oversaw testing and helped find solutions to problems pre and post deployment.",
         },
     ];
     return (
         <div className="testimonials" id="testimonials">
-            <h1>Testimonials</h1>
+            <h1>Experience</h1>
             <div className="container">
                 {data.map((d) => (
                     <div className={d.featured ? "card featured" : "card"}>
                         <div className="top">
-                            <img src="assets/right-arrow.png" className="left" alt="" />
                             <img
                                 className="user"
                                 src={d.img}
