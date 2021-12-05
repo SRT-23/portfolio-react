@@ -3,7 +3,7 @@
 .topbar {
     width: 100%;
     height: 70px;
-    background-color: whitesmoke;
+    background-color: white;
     color: $mainColor;
     position: fixed;
     top: 0;
@@ -27,7 +27,7 @@
                 color: inherit;
                 margin-right: 40;
             }
-            
+
             .itemContainer {
                 display: flex;
                 align-items: center;
@@ -44,6 +44,7 @@
                 }
             }
         }
+
         .right {
 
             .hamburger {
@@ -67,20 +68,22 @@
 
     &.active {
         background-color: $mainColor;
-        color: whitesmoke;
+        color: white;
 
         .hamburger {
 
             span {
                 &:first-child {
-                    background-color: whitesmoke;
+                    background-color: white;
                     transform: rotate(45deg);
                 }
+
                 &:nth-child(2) {
                     opacity: 0;
                 }
+
                 &:last-child {
-                    background-color: whitesmoke;
+                    background-color: white;
                     transform: rotate(-45deg);
                 }
             }
