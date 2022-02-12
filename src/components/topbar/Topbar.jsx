@@ -10,7 +10,7 @@ export default function topBar({ menuOpen, setMenuOpen }) {
         <div className={'topbar ' + (menuOpen && 'active')}>
             <div className='wrapper'>
                 <div className="left">
-                    <a href="#intro" className='logo'>SRT23</a>
+                    <a href="#intro" className='logo'>SRT.io</a>
                     <div className="itemContainer">
                         <LinkedInIcon className='icon' />
                         <a href='https://www.linkedin.com/in/srt-23/'>srt-23</a>

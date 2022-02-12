@@ -5,7 +5,7 @@ export default function Testimonials() {
     const data = [
         {
             id: 1,
-            name: "Production Support Analyst",
+            name: "Application Support Analyst",
             title: "JP Morgan Chase & Co",
             img: "assets/download.jpg",
             icon: "assets/globe.png",
@@ -14,8 +14,8 @@ export default function Testimonials() {
         },
         {
             id: 2,
-            name: "FrontEnd Developer Intern",
-            title: "CitiBank",
+            name: "Software Engineer Intern",
+            title: "Citi",
             img: "assets/download-1.jpg",
             icon: "assets/mobile.png",
             desc:
